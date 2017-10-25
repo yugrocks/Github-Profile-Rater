@@ -1,0 +1,25 @@
+Features:
+- Followers _/
+- Following _/
+- Total repos _/
+- Stars on repositories in total _/
+- Number of times repos were forked _/
+- Total stars given by the person _/
+
+
+Links:
+- https://github.com/username?tab=repositories
+- https://github.com/yugrocks?stars
+- https://github.com/yugrocks?tab=followers
+- https://github.com/yugrocks?tab=following
+
+
+
+How to do it:
+
+Processing one profile page:
+    - The followers, the followings, and total stars given can be noted from the page
+        https://github.com/yugrocks?tab=repositories itself.
+    - The other things can be noted by iterating the repositories at https://github.com/username?tab=repositories.
+
+Process the followers and followings in a depth first search recursively. May have a limit for number of recursions.
