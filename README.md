@@ -3,8 +3,8 @@ A level-wise github profile rater. Rates profiles from 1-200 such that similar p
 Requirements: Python 3.4, Sklearn, numpy 1.11.0, scrapy     
 
 # How to Run:   
-<code>$ cd Github-Profile-Rater    
-<code>$ python predict.py [profile url or github handle] <code>    
+<code>$ cd Github-Profile-Rater </code>    
+<code>$ python predict.py [profile url or github handle] </code>    
 
 # How it works:    
 It shows you the level of your github profile between 1 and 200, where level 1 is least and level 200 is the best, with respect to the best current profiles on github.   
